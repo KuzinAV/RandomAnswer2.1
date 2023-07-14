@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         answerButton.layer.cornerRadius = 10
+        answerButton.setTitle("Get answer!", for: .normal)
+        answerButton.setTitle("Wait", for: .highlighted)
+        answerButton.isEnabled = true
+        answerButton.setTitleColor(.red, for: .highlighted)
+        answerButton.backgroundColor = .link
     }
 
     @IBAction func answerButtonAction(_ sender: Any) {
