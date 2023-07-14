@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //answerButton.layer.cornerRadius = 10
+        answerButton.layer.cornerRadius = 10
     }
 
     @IBAction func answerButtonAction(_ sender: Any) {
